@@ -16,10 +16,12 @@ body{
     margin-bottom: 10px;
     border-radius: 10px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-bottom: 10;
+    background-color: rgb(230, 223, 214);
+
 
 }
 
@@ -95,20 +97,23 @@ body{
 
 .column2{
 
-    background-color: rgb(218, 205, 187);
     width: 25%;
+    align-items: center;
+    justify-content: center;
 }
 
 .column3{
 
-    background-color: rgb(218, 205, 187);
     width: 25%;
+    align-items: center;
+    justify-content: center;
 }
 
 .column4{
 
-    background-color: rgb(218, 205, 187);
     width: 25%;
+    align-items: center;
+    justify-content: center;
 }
 
 .simon{
@@ -133,4 +138,10 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+
+.footer{
+    
+    text-align: center;
 }
